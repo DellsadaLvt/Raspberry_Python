@@ -17,7 +17,8 @@ pwm3= GPIO.PWM( LED3, 1000)
 
 pwm.start(0)
 pwm2.start(0)
-pwm3.start(0)
+pwm3.start
+(0)
 
 def pwmLed( pwmx ):
     for i in range(0, 101, 10 ):
