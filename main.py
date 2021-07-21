@@ -16,7 +16,7 @@ LED3=18
 timeUseFucInitPwm= int(0)
 pwm= []
 
-
+# This line is from local
 # func 0
 def initPwm( **kwargs ):
     # init input
