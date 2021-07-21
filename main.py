@@ -1,4 +1,8 @@
-# this code in ex1
+# <<<<<<< HEAD
+# # this code in ex1
+# =======
+# # code in ex4
+# >>>>>>> ex4
 import excercise3 as fnc3
 # this code in master
 
@@ -6,7 +10,6 @@ import excercise3 as fnc3
 LED= 12
 LED2=16
 LED3=18
-#this code in master
 
 def ex3():
     try:
@@ -18,7 +21,7 @@ def ex3():
     except KeyboardInterrupt:
         pass 
     fnc3.endOfPwm()
- 
+
 
 def main():
     ex3()
