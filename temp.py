@@ -70,9 +70,7 @@ try:
 except KeyboardInterrupt:
     pass
     
-pwm[0].stop()
-pwm[1].stop()
-pwm[2].stop()
+pwm.stop()
 GPIO.cleanup()
 
 
