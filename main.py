@@ -1,4 +1,4 @@
-# this code in ex4
+# this code in ex1
 import excercise3 as fnc3
 
 
@@ -6,7 +6,7 @@ import excercise3 as fnc3
 LED= 12
 LED2=16
 LED3=18
-
+#this code in master
 
 def ex3():
     try:
