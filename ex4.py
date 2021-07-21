@@ -2,9 +2,8 @@ import RPi.GPIO as GPIO
 import time
 import excercise3 as pwm
 
-
 # INIT VALUE
-led= (12,16,18)
+
 btn0= 33
 btn1= 35
 btn2= 37
@@ -80,24 +79,8 @@ def initInput( **kwargs ):
 
 
 
-def main():
-    try:
-        pwm.initPwm( ledPin= led[0], freq=800, startDuty = 0)
-        pwm.initPwm( ledPin= led[1], freq=800, startDuty = 0)
-        pwm.initPwm( ledPin= led[2], freq=800, startDuty = 0)
-        
-        initInput( btnx= btn0 )
-        initInput( btnx= btn1 )
-        initInput( btnx= btn2 )
-        while True:
-            pass
-    except KeyboardInterrupt:
-        pass
     
-    pwm.cleanGPIO()
-    
-    
-main()
+
 
 
 
