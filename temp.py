@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-# Add line in local
-=======
-
 import RPi.GPIO as GPIO
 import time
 
-# This line is from the web
+
 # INIT CONFIG
 GPIO.setmode(GPIO.BOARD)
 
@@ -16,7 +12,7 @@ LED3=18
 timeUseFucInitPwm= int(0)
 pwm= []
 
-# This line is from local
+
 # func 0
 def initPwm( **kwargs ):
     # init input
@@ -74,9 +70,7 @@ try:
 except KeyboardInterrupt:
     pass
     
-pwm[0].stop()
-pwm[1].stop()
-pwm[2].stop()
+pwm.stop()
 GPIO.cleanup()
 
 
