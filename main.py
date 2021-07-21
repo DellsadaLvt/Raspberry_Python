@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Add line in local
+=======
+
 import RPi.GPIO as GPIO
 import time
 
