@@ -55,14 +55,37 @@ def pwmLed( pwmx ):
         pwmx.ChangeDutyCycle(i)
         time.sleep(0.1)
 
-
+# fnc 3
 def pwm3Led():
     pwmLed( pwm[0] )
     pwmLed( pwm[1] )
     pwmLed( pwm[2] )
+
+
+# fnc 4    
+def controlPwmLed( **kwargs):
+    # get values
+    led = kwargs["led"]
+    duty= kwargs["duty"]
+    try:
+        # check parameter
+        int(led)
+        int(duty)
+        assert( 0 <= led <= 2 )
+        assert( 0 <= duty <= 100 )
+        # enter func
+        pwm[led].ChangeDutyCycle(duty)  
+    except ValueError:
+        print("Input must be a number\n")
+        exit()
+    except AssertionError:
+        print("Check assert of values\n")
+        exit()
     
-    
-def endOfPwm():   
+ 
+
+#fnc 5 
+def cleanGPIO():   
     pwm[0].stop()
     pwm[1].stop()
     pwm[2].stop()
