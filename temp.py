@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-
+# Test in pull request
 
 # INIT CONFIG
 GPIO.setmode(GPIO.BOARD)
