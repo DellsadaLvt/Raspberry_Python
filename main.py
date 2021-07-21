@@ -1,6 +1,6 @@
 # this code in ex1
 import excercise3 as fnc3
-
+# this code in master
 
 # INIT VALUE
 LED= 12
