@@ -1,0 +1,47 @@
+[33mcommit 25e8a6381fb42b4efc24e8fcbba09f90f0e0b60f[m[33m ([m[1;36mHEAD -> [m[1;32mmpu[m[33m)[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Fri Jul 23 22:10:57 2021 +0700
+
+    add oneline in .py
+
+[33mcommit 88ad48dff8a65c21463fe689fdee0696d31e2ba2[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Fri Jul 23 21:28:38 2021 +0700
+
+    update mpu.py
+
+[33mcommit 74a7c2d227c96e256d1d3151511be2e342399b10[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Fri Jul 23 21:23:05 2021 +0700
+
+    upload mpu read C code
+
+[33mcommit 8a554a8277a1c2b9c770270b5134097dd92fb8df[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Fri Jul 23 17:00:07 2021 +0700
+
+    update 0
+
+[33mcommit cd33b579ee2d0e1cc53c80e836418157e22dd552[m[33m ([m[1;32muart[m[33m, [m[1;32mmaster[m[33m)[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Fri Jul 23 15:24:31 2021 +0700
+
+    upload i2c code
+
+[33mcommit 875647f6b4822bb42e05a76b3eafb90e0e942568[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Fri Jul 23 15:23:33 2021 +0700
+
+    update spi and usart code
+
+[33mcommit fe1af9e3b61c1da1ca20db4cf9c1b25ed0d9314d[m[33m ([m[1;31morigin/uart[m[33m)[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Thu Jul 22 17:57:39 2021 +0700
+
+    upload stm32 usart code
+
+[33mcommit d66ab34b1ab82d10492c0f4c21eb12cc8b69b5bd[m
+Author: DellsadaLvt <levantho0168@gmail.com>
+Date:   Thu Jul 22 17:41:22 2021 +0700
+
+    uart python
