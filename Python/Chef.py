@@ -1,4 +1,4 @@
-class Chef:
+class Chefs():
     def make_chicken( self ):
         print("The chef makes a chicken")
     
@@ -9,4 +9,5 @@ class Chef:
         print("The chef makes bbq ribs")
      
      
-     
+def pe():
+        print("pe func")
